@@ -131,9 +131,10 @@ class App extends React.Component {
   }
 
   toggleDarkMode() {
-    localStorage.setItem('darkMode', !this.state.darkMode);
+    const newDarkMode = !this.state.darkMode;
+    localStorage.setItem('darkMode', newDarkMode);
     this.setState({
-      darkMode: !this.state.darkMode,
+      darkMode: newDarkMode,
     });
   }
 }
