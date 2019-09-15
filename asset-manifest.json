@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/oauth2-helper/static/css/main.b3d948c2.chunk.css",
-    "main.js": "/oauth2-helper/static/js/main.974f98f5.chunk.js",
-    "main.js.map": "/oauth2-helper/static/js/main.974f98f5.chunk.js.map",
+    "main.js": "/oauth2-helper/static/js/main.b1205904.chunk.js",
+    "main.js.map": "/oauth2-helper/static/js/main.b1205904.chunk.js.map",
     "runtime~main.js": "/oauth2-helper/static/js/runtime~main.4dd9754d.js",
     "runtime~main.js.map": "/oauth2-helper/static/js/runtime~main.4dd9754d.js.map",
     "static/js/2.31f7cb65.chunk.js": "/oauth2-helper/static/js/2.31f7cb65.chunk.js",
     "static/js/2.31f7cb65.chunk.js.map": "/oauth2-helper/static/js/2.31f7cb65.chunk.js.map",
     "index.html": "/oauth2-helper/index.html",
-    "precache-manifest.acc83d0cf7eeba3cec41e841effcb9dd.js": "/oauth2-helper/precache-manifest.acc83d0cf7eeba3cec41e841effcb9dd.js",
+    "precache-manifest.7849c043d205fc4042506f6956cc746e.js": "/oauth2-helper/precache-manifest.7849c043d205fc4042506f6956cc746e.js",
     "service-worker.js": "/oauth2-helper/service-worker.js",
     "static/css/main.b3d948c2.chunk.css.map": "/oauth2-helper/static/css/main.b3d948c2.chunk.css.map"
   }
