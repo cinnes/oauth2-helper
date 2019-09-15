@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cinnes/oauth2-helper/static/css/main.b3d948c2.chunk.css",
+    "main.js": "/cinnes/oauth2-helper/static/js/main.a69a5c79.chunk.js",
+    "main.js.map": "/cinnes/oauth2-helper/static/js/main.a69a5c79.chunk.js.map",
+    "runtime~main.js": "/cinnes/oauth2-helper/static/js/runtime~main.882af934.js",
+    "runtime~main.js.map": "/cinnes/oauth2-helper/static/js/runtime~main.882af934.js.map",
+    "static/js/2.80056588.chunk.js": "/cinnes/oauth2-helper/static/js/2.80056588.chunk.js",
+    "static/js/2.80056588.chunk.js.map": "/cinnes/oauth2-helper/static/js/2.80056588.chunk.js.map",
+    "index.html": "/cinnes/oauth2-helper/index.html",
+    "precache-manifest.aecc3abf6767709b0016d51b72d1042c.js": "/cinnes/oauth2-helper/precache-manifest.aecc3abf6767709b0016d51b72d1042c.js",
+    "service-worker.js": "/cinnes/oauth2-helper/service-worker.js",
+    "static/css/main.b3d948c2.chunk.css.map": "/cinnes/oauth2-helper/static/css/main.b3d948c2.chunk.css.map"
+  }
+}
