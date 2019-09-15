@@ -8,17 +8,16 @@ import { Card, Elevation, Button, Code, Switch, Pre } from '@blueprintjs/core';
 class App extends React.Component {
   constructor(props) {
     super(props);
-    const search = window.location.search;
-    const params = new URLSearchParams(search);
+    const params = new URLSearchParams(window.location.search);
 
     this.state = {
-      darkMode: true,
+      darkMode: JSON.parse(localStorage.getItem('darkMode')),
       clientId: localStorage.getItem('clientId') || '',
       clientSecret: localStorage.getItem('clientSecret') || '',
       authEndpoint: localStorage.getItem('authEndpoint') || '',
       tokenEndpoint: localStorage.getItem('tokenEndpoint') || '',
       authCode: params.get('code'),
-      homeUrl: 'https://dd9a22d6.ngrok.io/',
+      homeUrl: 'https://cinnes.github.io/oauth2-helper/',
       tokenResponse: '',
       tokenError: ''
     };
@@ -96,7 +95,7 @@ class App extends React.Component {
     localStorage.setItem('clientSecret', this.state.clientSecret);
     localStorage.setItem('authEndpoint', this.state.authEndpoint);
     localStorage.setItem('tokenEndpoint', this.state.tokenEndpoint);
-    
+
     event.preventDefault();
     const url = `${this.state.authEndpoint}?response_type=code&client_id=${this.state.clientId}&redirect_uri=${this.state.homeUrl}&scope=read write`
     window.location = url;
@@ -132,6 +131,7 @@ class App extends React.Component {
   }
 
   toggleDarkMode() {
+    localStorage.setItem('darkMode', !this.state.darkMode);
     this.setState({
       darkMode: !this.state.darkMode,
     });
